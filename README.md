@@ -1,9 +1,15 @@
 # Payment Methods SVG
-A Simple set of Payment Method icons with an SVG stylish approach. This approach allows us the scaling benifits of a webfont (vectors!), but with the ability to correctly color match to the brand specifications. It also retains the ease of use by having a css library which you can drop into your project.
+A Simple set of Payment Method icons with an SVG stylish approach. This approach allows us the scaling benifits of a webfont (vectors!), but with the ability to correctly color match to the brand specifications. It also retains the ease of use by having a css library which you can drop into your project. Yet it will be flexible enough for you to easily adapt, select, and tailor to your site.  
+  
+The goal here is to also present each brand according to their brand guidelines. While this does take away some of the creativity from the presentation it should allow for simple implementation to meet the terms of accepting their methods.  
 
 
+## Payment Methods Included  
 
-## The Icons
+[American Express](https://www.americanexpress.com), [Diner Club](https://www.dinersclub.com/), [Discover](https://www.discover.com/), [JBC](http://www.global.jcb/), [Mastercard](http://www.mastercard.com/), and [Visa](https://www.visa.com/).
+
+
+## The Icons  
 
 For the sake of consisency every icon is going to have the same dimensions of 85.60 mm × 53.98 mm (the same as a credit card). We are not using an image sprite, but instead will embed a base encoded version of the svg file into the computed css.  
 
@@ -19,6 +25,10 @@ These are designed to look like credit cards to further highlight the main brand
   
 Often the brand will supply a color, graphic, or full art to use for this approach. These tend to look like the graphics you would see on stickers next to a register or in a shop window.  
 
+### Notes on Artwork
+
+#### Visa
+There are a lot of visa logos floating around. One that we saw frequently was the blue word mark with the gold point on the upper left of the V. However the brand guidelines we could access directly from Visa were using the one we have placed.
 
 ### Notes on Conversions to SVG
 
