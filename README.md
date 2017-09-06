@@ -9,20 +9,34 @@ For the sake of consisency every icon is going to have the same dimensions of 85
 
 This minimizes the number of requests (helpful for mobile) and is just my preference. While this will result in a larger css file, svg images are normally quite smaller than their raster friends. This also allows for more true drag and drop performance.  
 
-### Mark Icons
-These are the standard icons used by default. They will only be the individual marks for each payment method. 
+### Mark Icons  
+These are the standard icons used by default. It is expected that these logos will appear on a white, or light colors background (for when there are options darker marks are selected). These icons are not uniform in width, but have the same height. The rough goal is to give each logo around 3250 mm² of area (where the height is 50mm and width would be 65mm).  
+  
+With icons which are wider they will not span the full vertical height in order to acheive the same rough visual weight as other more square shaped marks. These wider marks should be vertically centered in the space.  
 
-## Making your own Library
+### Card Icons  
+These are designed to look like credit cards to further highlight the main branding colors of each payment method. They are uniform in size and share the same card shape. The brand mark on the card is sized to carry a similar visual weight, and to feel similar to the rest of the cards. The background of the card is informed by the branding guidelines for each method.  
+  
+Often the brand will supply a color, graphic, or full art to use for this approach. These tend to look like the graphics you would see on stickers next to a register or in a shop window.  
+
+
+### Notes on Conversions to SVG
+
+#### Discover
+So the vector discover logo makes use of several multiplication layers. This is a problem since there is no direct way to convert a these layers to SVG which does not have native layer blending modes. Instead of messing with svg filters which might have gotten us cloes we simple disabled these layers. This gets us very cloes, but without the shadow on the upper left corner of the mark, or the more burnt umber color on the upper left third. This decision was reached when the SVG on the Discover site was using a rastered image that was then clipped for the mark.
+
+
+## Making your own Library  
 
 Every icon will have it's own `*.scss` file which is included or excluded in the buildling process. This level of flexibilty allows you to easily include/exclude the payment methods you need or not. We will include 3 pre-bunlded scripts for ease of use: minimal-mark, minimal-card, and full (every icon madem, in both formats). The minimal scripts will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
 
 
 ## Resources
-The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork.
+The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork. If there is more current documentation or brand guidelines please let us know - we will update accordingly.
 
 *	American Express  
-*	Diners Club  
-*	Discover  
-*	JBC  
+*	[Diners Club](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
+*	[Discover](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
+*	[JBC](http://www.jcb.co.jp/bdmanual/en/index.html)  
 *	[Mastercard](https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html)  
 *	[Visa](https://www.visaeurope.com/receiving-payments/pos_branding) with [branding guide](https://www.visa.ca/dam/VCOM/download/merchants/New_VBM_Acq_Merchant_62714_v5.pdf)  
