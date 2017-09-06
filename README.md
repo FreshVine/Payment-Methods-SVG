@@ -40,11 +40,13 @@ So the vector discover logo makes use of several multiplication layers. This is 
 
 Every icon will have it's own `*.scss` file which is included or excluded in the buildling process. This level of flexibilty allows you to easily include/exclude the payment methods you need or not. We will include 3 pre-bunlded scripts for ease of use: minimal-mark, minimal-card, and full (every icon madem, in both formats). The minimal scripts will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
 
+## Requesting the addition of a Payment Method  
+
 
 ## Resources
 The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork. If there is more current documentation or brand guidelines please let us know - we will update accordingly.
 
-*	American Express  
+*	[American Express](https://merchant-supplies.americanexpress.com/?locale=en_US#/catalog/producttype/digitalsigns)  
 *	[Diners Club](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
 *	[Discover](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
 *	[JBC](http://www.jcb.co.jp/bdmanual/en/index.html)  
