@@ -1,3 +1,17 @@
+/**
+ * Payment Method SVG 1.0.0
+ *
+ * @since     2017-09-07
+ * @version   2017-09-07
+ *
+ * @author    Paul Prins (@PaulPrins)
+ * @copyright NA
+ * @link      https://github.com/FreshVine/Payment-Methods-SVG
+ * @link      https://FreshVine.co/
+ * @github    https://github.com/FreshVine/Payment-Methods-SVG
+ *
+ * @license   MIT License
+ */
 .paymentMethod {
   height: 1em;
   display: inline-block;
