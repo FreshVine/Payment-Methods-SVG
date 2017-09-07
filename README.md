@@ -45,10 +45,32 @@ There are a lot of visa logos floating around. One that we saw frequently was th
 So the vector discover logo makes use of several multiplication layers. This is a problem since there is no direct way to convert a these layers to SVG which does not have native layer blending modes. Instead of messing with svg filters which might have gotten us cloes we simple disabled these layers. This gets us very cloes, but without the shadow on the upper left corner of the mark, or the more burnt umber color on the upper left third. This decision was reached when the SVG on the Discover site was using a rastered image that was then clipped for the mark.
 
 
+## Prebuild Libraries
+
+We will include 3 pre-bunlded scripts for ease of use: stripe-mark (`paymentMethods.min.css`), stripe-cards  (`paymentMethods.cards.min.css`), all-mark (`paymentMethods.all.min.css`), and all-cards (`paymentMethods.all.cards.min.css`). The stripe libraries will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
+
 ## Making your own Library  
 
-Every icon will have it's own `*.scss` file which is included or excluded in the buildling process. This level of flexibilty allows you to easily include/exclude the payment methods you need or not. We will include 3 pre-bunlded scripts for ease of use: minimal-mark, minimal-card, and full (every icon madem, in both formats). The minimal scripts will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
+Every icon will have it's own `*.scss` file which is included or excluded in the buildling process. This level of flexibilty allows you to easily include/exclude the payment methods you need or not. 
 
+**Example:** `/project-payment-methods.scss`
+
+	// Bring in the Payment Method base style builder
+	@import 'builder';
+
+	//
+	// Import the specific payment methods we are using
+	@import '../icons/marks/amex';
+	@import '../icons/marks/diners-club';
+	@import '../icons/marks/discover';
+	@import '../icons/marks/jcb';
+	@import '../icons/marks/mastercard';
+	@import '../icons/marks/visa';
+
+
+## Building the Precompiled Libraries
+
+In the `style/` directory are 4 `*.scss` files which we use to build out our precompiled libraries. The sass commands below will compile them when executed from the root of this project.  
 
 	sass style/all.cards.scss lib/paymentMethods.all.cards.min.css --style compressed --sourcemap=none
 	sass style/all.cards.scss lib/paymentMethods.all.cards.css --style expanded
@@ -62,6 +84,7 @@ Every icon will have it's own `*.scss` file which is included or excluded in the
 
 ## Requesting the addition of a Payment Method  
 
+Our desire is to see the supported methods grow. To make a request open an issue and include a link to a published art/resources from the brand in question. We will not use links to third party sites to craft icons in this project.
 
 ## Resources
 The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork. If there is more current documentation or brand guidelines please let us know - we will update accordingly.
