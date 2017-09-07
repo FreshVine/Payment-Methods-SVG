@@ -1,0 +1,13 @@
+
+
+.paymentMethod{
+	height: 1em;
+    display: inline-block;
+    font-size: inherit;
+}
+
+.paymentMethod.disabled{
+	filter: grayscale(100%);
+	opacity: .4;
+}
+
