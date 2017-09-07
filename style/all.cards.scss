@@ -4,12 +4,6 @@
 @import 'builder';
 
 
-.paymentMethod.card{
-	    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
-}
-
-
 //
 // Import the specific payment methods we are using
 @import '../icons/cards/amex';
