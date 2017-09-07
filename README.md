@@ -47,7 +47,7 @@ So the vector discover logo makes use of several multiplication layers. This is 
 
 ## Prebuild Libraries
 
-We will include 3 pre-bunlded scripts for ease of use: stripe-mark (`paymentMethods.min.css`), stripe-cards  (`paymentMethods.cards.min.css`), all-mark (`paymentMethods.all.min.css`), and all-cards (`paymentMethods.all.cards.min.css`). The stripe libraries will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
+We will include 4 pre-bunlded libraries for ease of use: stripe-marks (`lib/paymentMethods.min.css`), stripe-cards  (`lib/paymentMethods.cards.min.css`), all-marks (`lib/paymentMethods.all.min.css`), and all-cards (`lib/paymentMethods.all.cards.min.css`). The stripe libraries will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
 
 ## Making your own Library  
 
@@ -84,7 +84,9 @@ In the `style/` directory are 4 `*.scss` files which we use to build out our pre
 
 ## Requesting the addition of a Payment Method  
 
-Our desire is to see the supported methods grow. To make a request open an issue and include a link to a published art/resources from the brand in question. We will not use links to third party sites to craft icons in this project.
+Our desire is to see the supported methods grow. To make a request open an issue and include a link to a published art/resources from the brand in question. We will not use links to third party sites to craft icons in this project.  
+
+If you notice that one of the icons we are using is out of date please open an issue pointing us to updated art/resources.
 
 ## Resources
 The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork. If there is more current documentation or brand guidelines please let us know - we will update accordingly.
