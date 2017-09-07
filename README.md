@@ -78,16 +78,19 @@ Every icon will have it's own `*.scss` file which is included or excluded in the
 **Example:** `/project-payment-methods.scss`
 
 	// Bring in the Payment Method base style builder
-	@import 'builder';
+	@import 'path-to-project/style/builder';
 
 	//
 	// Import the specific payment methods we are using
-	@import '../icons/marks/amex';
-	@import '../icons/marks/diners-club';
-	@import '../icons/marks/discover';
-	@import '../icons/marks/jcb';
-	@import '../icons/marks/mastercard';
-	@import '../icons/marks/visa';
+	@import 'path-to-project/icons/marks/amex';
+	@import 'path-to-project/icons/marks/diners-club';
+	@import 'path-to-project/icons/marks/discover';
+	@import 'path-to-project/icons/marks/jcb';
+	@import 'path-to-project/icons/marks/mastercard';
+	@import 'path-to-project/icons/marks/visa';
+
+	@import 'path-to-project/icons/cards/mastercard';
+	@import 'path-to-project/icons/cards/visa';
 
 
 ## Building the Precompiled Libraries
