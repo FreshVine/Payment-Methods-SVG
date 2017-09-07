@@ -4,6 +4,8 @@ A Simple set of Payment Method icons with an SVG stylish approach. This approach
 The `lib/paymentMethods.min.css` file is only 30kb and includes the 6 payment methods marks accepted by stripe! The card version of the same library - `paymentMethods.cards.min.css` - is 120kb due to increased SVG complexity.
   
 The goal here is to also present each brand according to their brand guidelines. While this does take away some of the creativity from the presentation it should allow for simple implementation to meet the terms of accepting their methods.  
+  
+[View Demo - https://freshvine.github.io/Payment-Methods-SVG/](https://freshvine.github.io/Payment-Methods-SVG/) 
 
 <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/amex.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/diners-club.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/discover.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/jcb.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/mastercard.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/visa.svg?sanitize=true" height="50">  
   
