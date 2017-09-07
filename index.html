@@ -12,12 +12,28 @@
 
 		<link rel="stylesheet" href="lib/paymentMethods.cards.min.css">
 		<link rel="stylesheet" href="lib/paymentMethods.min.css">
+		<style>
+			.paymentMethod.paymentMethod-card{
+				    -webkit-filter: drop-shadow(5px 5px 5px #222);
+			    filter: drop-shadow(5px 5px 5px #222);
+			}
+		</style>
 
         <script src="test/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+		<h1>Payment Methods SVG by Fresh Vine</h1>
+		<div>
+			<a href="https://github.com/FreshVine/Payment-Methods-SVG">Return to the Github Project page</a>
+		</div>
 
-		<h1>Icons Marks</h1>
+		<div style="margin-top: 1em; font-size: 1.2em">
+			Check out all of the possible icons below. These are all embedded in their a css library. <br />
+			Click on an icon to see a sample disabled state. The drop shadow on the card version is included on this page, but can easiler be excluded or altered for your needs.
+		</div>
+
+
+		<h2>Icons Marks</h2>
 		<div style="font-size: 80px;">
 			<i class="paymentMethod amex"></i>
 			<i class="paymentMethod dinersClub"></i>
@@ -27,7 +43,7 @@
 			<i class="paymentMethod visa"></i>
 		</div>
 
-		<h1>Icons Cards</h1>
+		<h2>Icons Cards</h2>
 		<div style="font-size: 80px;">
 			<i class="paymentMethod amex paymentMethod-card"></i>
 			<i class="paymentMethod dinersClub paymentMethod-card"></i>
@@ -38,5 +54,17 @@
 		</div>
 
         <script src="test/js/main.js"></script>
+		<script>
+			var anchors = document.getElementsByTagName('i');
+			for(var z = 0; z < anchors.length; z++) {
+			    var elem = anchors[z];   
+				if( !elem.classList.contains('paymentMethod') ){ continue; }
+			    elem.onclick = function() {
+					this.classList.toggle('disabled');		
+			        console.log("hello");
+			        return false;
+			    };
+			}
+		</script>
     </body>
 </html>
