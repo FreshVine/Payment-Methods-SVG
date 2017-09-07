@@ -1,0 +1,20 @@
+
+
+// Bring in the base building styles
+@import 'builder';
+
+
+.paymentMethod.card{
+	    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+//
+// Import the specific payment methods we are using
+@import '../icons/cards/amex';
+@import '../icons/cards/diners-club';
+@import '../icons/cards/discover';
+@import '../icons/cards/jcb';
+@import '../icons/cards/mastercard';
+@import '../icons/cards/visa';
