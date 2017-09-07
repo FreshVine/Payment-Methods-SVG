@@ -1,8 +1,13 @@
 # Payment Methods SVG
 A Simple set of Payment Method icons with an SVG stylish approach. This approach allows us the scaling benifits of a webfont (vectors!), but with the ability to correctly color match to the brand specifications. It also retains the ease of use by having a css library which you can drop into your project. Yet it will be flexible enough for you to easily adapt, select, and tailor to your site.  
+
+The `lib/paymentMethods.min.css` file is only 30kb and includes the 6 payment methods marks accepted by stripe! The card version of the same library - `paymentMethods.cards.min.css` - is 120kb due to increased SVG complexity.
   
 The goal here is to also present each brand according to their brand guidelines. While this does take away some of the creativity from the presentation it should allow for simple implementation to meet the terms of accepting their methods.  
 
+<img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/amex.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/diners-club.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/discover.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/jcb.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/mastercard.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/visa.svg?sanitize=true" height="50">  
+  
+<img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/amex.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/diners-club.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/discover.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/jcb.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/mastercard.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/visa.svg?sanitize=true" height="50">  
 
 ## Payment Methods Included  
 
