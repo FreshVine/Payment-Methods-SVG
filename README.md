@@ -40,6 +40,17 @@ So the vector discover logo makes use of several multiplication layers. This is 
 
 Every icon will have it's own `*.scss` file which is included or excluded in the buildling process. This level of flexibilty allows you to easily include/exclude the payment methods you need or not. We will include 3 pre-bunlded scripts for ease of use: minimal-mark, minimal-card, and full (every icon madem, in both formats). The minimal scripts will only include Visa, MasterCard, American Express, Diners Club, JCB and Discover. These are the methods accepted by Stripe.
 
+
+	sass style/all.cards.scss lib/paymentMethods.all.cards.min.css --style compressed --sourcemap=none
+	sass style/all.cards.scss lib/paymentMethods.all.cards.css --style expanded
+	sass style/all.scss lib/paymentMethods.all.min.css --style compressed --sourcemap=none
+	sass style/all.scss lib/paymentMethods.all.css --style expanded
+
+	sass style/stripe.cards.scss lib/paymentMethods.cards.min.css --style compressed --sourcemap=none
+	sass style/stripe.cards.scss lib/paymentMethods.cards.css --style expanded  
+	sass style/stripe.scss lib/paymentMethods.min.css --style compressed --sourcemap=none
+	sass style/stripe.scss lib/paymentMethods.css --style expanded  
+
 ## Requesting the addition of a Payment Method  
 
 
