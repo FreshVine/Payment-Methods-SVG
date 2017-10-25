@@ -17,15 +17,15 @@ Below are the links to the SVG files. This is to show the artwork used since you
 <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/apple-pay.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/pay-with-google.svg?sanitize=true" height="50">  
 
 ## Payment Methods Included  
-
+  
 [American Express](https://www.americanexpress.com), [Diner Club](https://www.dinersclub.com/), [Discover](https://www.discover.com/), [JBC](http://www.global.jcb/), [MasterCard](http://www.mastercard.com/), and [Visa](https://www.visa.com/).
 
-### Tokenized Payment Approaches
-
-A tokenized payment approach allows the user to pay you, but without giving you their card information. Instead a single use token is generated that allows you to charge them. The main approaches here are Apple Pay, and Pay with Google. For these approaches only Cards are provided as neither Apple or Google have a mark for you to use. These card icons are not forced to the same dimensions as the normal cards.
-
-[Apple Pay](https://www.apple.com/apple-pay/), [Pay with Google](https://www.google.com/payments/solutions/#apps-mobile-web)
-
+### Tokenized Payment Approaches  
+  
+[Apple Pay](https://www.apple.com/apple-pay/), and [Pay with Google](https://www.google.com/payments/solutions/#apps-mobile-web)  
+  
+A tokenized payment approach allows the user to pay you, but without giving you their card information. Instead a single use token is generated that allows you to charge them. The main approaches here are Apple Pay, and Pay with Google. For these approaches only Cards are provided as neither Apple or Google have a mark for you to use. These card icons are not forced to the same dimensions as the normal cards.  
+  
 ## Using the Library
 
 There are two steps to using the Payment Methods SVG library. First is you must include a css file. Second you need to add a properly classed element to your DOM. The icon will be the height of the font where it is placed. To adjust the size simply adjust the font size of the element (or its parent element), or you can adjust the height of the element.
