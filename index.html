@@ -10,9 +10,14 @@
         <link rel="stylesheet" href="test/css/normalize.min.css">
         <link rel="stylesheet" href="test/css/main.css">
 
-		<link rel="stylesheet" href="lib/paymentMethods.cards.min.css">
-		<link rel="stylesheet" href="lib/paymentMethods.min.css">
+		<link rel="stylesheet" href="lib/paymentMethods.cards.min.css" type="text/css">
+		<link rel="stylesheet" href="lib/paymentMethods.min.css" type="text/css">
+		<link rel="stylesheet" href="lib/paymentApproaches.all.cards.min.css" type="text/css">
 		<style>
+		
+			body{
+				margin: 1em;
+			}
 			.paymentMethod.paymentMethod-card:not(.disabled){
 				    -webkit-filter: drop-shadow(5px 5px 5px #222);
 			    filter: drop-shadow(5px 5px 5px #222);
@@ -51,6 +56,12 @@
 			<i class="paymentMethod jcb paymentMethod-card"></i>
 			<i class="paymentMethod mastercard paymentMethod-card"></i>
 			<i class="paymentMethod visa paymentMethod-card"></i>
+		</div>
+
+		<h2>Approach Cards</h2>
+		<div style="font-size: 80px;">
+			<i class="paymentMethod applePay paymentMethod-card"></i>
+			<i class="paymentMethod payWithGoogle paymentMethod-card"></i>
 		</div>
 
         <script src="test/js/main.js"></script>
