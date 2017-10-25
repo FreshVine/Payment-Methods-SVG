@@ -12,10 +12,19 @@ Below are the links to the SVG files. This is to show the artwork used since you
 <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/amex.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/diners-club.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/discover.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/jcb.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/mastercard.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/marks/visa.svg?sanitize=true" height="50">  
   
 <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/amex.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/diners-club.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/discover.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/jcb.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/mastercard.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/visa.svg?sanitize=true" height="50">  
+  
+**Approach Icons**  
+<img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/apple-pay.svg?sanitize=true" height="50"> <img src="https://raw.githubusercontent.com/FreshVine/Payment-Methods-SVG/master/icons/cards/pay-with-google.svg?sanitize=true" height="50">  
 
 ## Payment Methods Included  
 
 [American Express](https://www.americanexpress.com), [Diner Club](https://www.dinersclub.com/), [Discover](https://www.discover.com/), [JBC](http://www.global.jcb/), [MasterCard](http://www.mastercard.com/), and [Visa](https://www.visa.com/).
+
+### Tokenized Payment Approaches
+
+A tokenized payment approach allows the user to pay you, but without giving you their card information. Instead a single use token is generated that allows you to charge them. The main approaches here are Apple Pay, and Pay with Google. For these approaches only Cards are provided as neither Apple or Google have a mark for you to use. These card icons are not forced to the same dimensions as the normal cards.
+
+[Apple Pay](https://www.apple.com/apple-pay/), [Pay with Google](https://www.google.com/payments/solutions/#apps-mobile-web)
 
 ## Using the Library
 
@@ -107,6 +116,11 @@ In the `style/` directory are 4 `*.scss` files which we use to build out our pre
 	sass style/stripe.scss lib/paymentMethods.min.css --style compressed --sourcemap=none
 	sass style/stripe.scss lib/paymentMethods.css --style expanded  
 
+	sass style/all.approaches.scss lib/paymentApproaches.all.cards.min.css --style compressed --sourcemap=none
+	sass style/all.approaches.scss lib/paymentApproaches.all.cards.css --style expanded  
+	sass style/stripe.approaches.scss lib/paymentApproaches.cards.min.css --style compressed --sourcemap=none
+	sass style/stripe.approaches.scss lib/paymentApproaches.cards.css --style expanded  
+
 ## Requesting the addition of a Payment Method  
 
 Our desire is to see the supported methods grow. To make a request open an issue and include a link to a published art/resources from the brand in question. We will not use links to third party sites to craft icons in this project.  
@@ -117,8 +131,10 @@ If you notice that one of the icons we are using is out of date please open an i
 The artwork, design, and rights to these marks remains with the individual brands. They make this work available so that we can correctly represent their brands where their cards are accepted. These are the locations where we access their vector artwork. If there is more current documentation or brand guidelines please let us know - we will update accordingly.
 
 *	[American Express](https://merchant-supplies.americanexpress.com/?locale=en_US#/catalog/producttype/digitalsigns)  
+*	[Apple Pay](https://developer.apple.com/apple-pay/web-human-interface-guidelines/)  
 *	[Diners Club](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
 *	[Discover](https://www.discovernetwork.com/en-us/business-resources/free-signage-logos)  
+*	[Google - Pay with Google](https://developers.google.com/payments/brand-guidelines#pay-with-google-brand-assets)
 *	[JBC](http://www.jcb.co.jp/bdmanual/en/index.html)  
 *	[MasterCard](https://brand.mastercard.com/brandcenter/mastercard-brand-mark/downloads.html)  
 *	[Visa](https://www.visaeurope.com/receiving-payments/pos_branding) with [branding guide](https://www.visa.ca/dam/VCOM/download/merchants/New_VBM_Acq_Merchant_62714_v5.pdf)  
